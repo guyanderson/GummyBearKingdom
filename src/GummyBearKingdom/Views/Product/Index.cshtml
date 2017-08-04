@@ -6,10 +6,12 @@
 }
 
 <h2>Our products:</h2>
-<h4>@Html.DisplayNameFor(model => model.ProductName)</h4>
 <ul>
     @foreach (var listItem in Model)
     {
-        <li>@Html.DisplayFor(modelItem => listItem.ProductName)</li>
+
+        <li>
+            @Html.ActionLink(listItem.ProductName, "Details", new { id = listItem.ProductId })
+        </li>
     }
 </ul>
