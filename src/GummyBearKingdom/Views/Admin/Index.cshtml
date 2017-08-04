@@ -11,7 +11,7 @@
     {
 
     <li>
-        @Html.DisplayFor(modelItem => listItem.ProductName)
+        @Html.DisplayFor(modelItem => listItem.ProductName) | @Html.ActionLink("Edit", "Edit", new { id = listItem.ProductId })
     </li>
     }
 </ul>

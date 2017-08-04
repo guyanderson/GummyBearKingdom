@@ -1,5 +1,33 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model GummyBearKingdom.Models.Product
+
 @{
+    ViewData["Title"] = "Gummy Bear Kingdom";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+
+<h2>Edit</h2>
+<hr />
+<h4>Edit this Product: @Html.DisplayFor(model => model.ProductName)</h4>
+
+@using (Html.BeginForm())
+{
+    @Html.HiddenFor(model => model.ProductId)
+
+    @Html.LabelFor(model => model.ProductName, "Name: ")
+    @Html.EditorFor(model => model.ProductName)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Price, "Price: ")
+    @Html.EditorFor(model => model.Price)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Origin, "Country of Origin: ")
+    @Html.EditorFor(model => model.Origin)
+    <br />
+    <br />
+
+    <input type="submit" value="Save" />
+}
+<p>@Html.ActionLink("Back to Admin", "Index")</p>
+<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
