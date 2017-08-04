@@ -7,7 +7,11 @@
 
 <h2>Product description:</h2>
 <hr />
-Name: @Html.DisplayFor(model => model.ProductName)
+<strong>Name:</strong> @Html.DisplayFor(model => model.ProductName)
+<br />
+<strong>Price:</strong> $@Html.DisplayFor(model => model.Price)
+<br />
+<strong>Proudly made in:</strong> @Html.DisplayFor(model => model.Origin)
 <br />
 <p>@Html.ActionLink("Back to Products", "Index")</p>
 <p>@Html.ActionLink("Back to Home", "Index", "Home")</p>

@@ -198,6 +198,7 @@
 --resource:"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs
+c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\AdminController1.cs
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\HomeController.cs
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\ProductController.cs
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804160716_Initial.cs

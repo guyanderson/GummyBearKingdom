@@ -5,10 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using GummyBearKingdom.Models;
 
-
 namespace GummyBearKingdom.Controllers
 {
-    public class ProductController : Controller
+    public class AdminController : Controller
     {
         private GummyBearKingdomContext db = new GummyBearKingdomContext();
 
@@ -17,10 +16,17 @@ namespace GummyBearKingdom.Controllers
             return View(db.Products.ToList());
         }
 
-        public IActionResult Details(int id)
+        public IActionResult Create()
         {
-            var thisProduct = db.Products.FirstOrDefault(products => products.ProductId == id);
-            return View(thisProduct);
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Create(Product product)
+        {
+            db.Products.Add(product);
+            db.SaveChanges();
+            return RedirectToAction("Index");
         }
 
     }
