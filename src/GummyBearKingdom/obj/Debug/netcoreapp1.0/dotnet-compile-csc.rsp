@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\Guy\documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\Guy\documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\bin\Debug\netcoreapp1.0\GummyBearKingdom.dll"
+"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\bin\Debug\netcoreapp1.0\GummyBearKingdom.dll"
 -r:"C:\Users\Guy\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
 -r:"C:\Users\Guy\.nuget\packages\Microsoft.AspNetCore.Authorization\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Authorization.dll"
 -r:"C:\Users\Guy\.nuget\packages\Microsoft.AspNetCore.Cors\1.0.0\lib\netstandard1.3\Microsoft.AspNetCore.Cors.dll"
@@ -190,12 +190,12 @@
 -r:"C:\Users\Guy\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Guy\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Guy\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"C:\Users\Guy\documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
-"C:\Users\Guy\documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs"
-"C:\Users\Guy\documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs"
-"C:\Users\Guy\documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\HomeController.cs"
-"C:\Users\Guy\documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804160716_Initial.cs"
-"C:\Users\Guy\documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804160716_Initial.Designer.cs"
-"C:\Users\Guy\documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\GummyBearKingdomContextModelSnapshot.cs"
-"C:\Users\Guy\documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\GummyBearKingdomContext.cs"
-"C:\Users\Guy\documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Product.cs"
+-resource:"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
+"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs"
+"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs"
+"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\HomeController.cs"
+"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804160716_Initial.cs"
+"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804160716_Initial.Designer.cs"
+"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\GummyBearKingdomContextModelSnapshot.cs"
+"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\GummyBearKingdomContext.cs"
+"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Product.cs"
