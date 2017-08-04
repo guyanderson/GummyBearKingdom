@@ -8,9 +8,10 @@ using GummyBearKingdom.Models;
 namespace GummyBearKingdom.Migrations
 {
     [DbContext(typeof(GummyBearKingdomContext))]
-    partial class GummyBearKingdomContextModelSnapshot : ModelSnapshot
+    [Migration("20170804174925_PriceToDouble")]
+    partial class PriceToDouble
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.0.0-rtm-21431")

@@ -199,8 +199,11 @@
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\HomeController.cs
+c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\ProductController.cs
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804160716_Initial.cs
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804160716_Initial.Designer.cs
+c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804174925_PriceToDouble.cs
+c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804174925_PriceToDouble.Designer.cs
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\GummyBearKingdomContextModelSnapshot.cs
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\GummyBearKingdomContext.cs
 c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Product.cs
