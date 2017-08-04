@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using GummyBearKingdom.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace GummyBearKingdom.Controllers
 {
@@ -16,15 +17,33 @@ namespace GummyBearKingdom.Controllers
             return View(db.Products.ToList());
         }
 
+        //Create Product Get request
         public IActionResult Create()
         {
             return View();
         }
 
+        //Create Product Post request
         [HttpPost]
         public IActionResult Create(Product product)
         {
             db.Products.Add(product);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+
+        //Edit Product Get request
+        public IActionResult Edit(int id)
+        {
+            var thisProduct = db.Products.FirstOrDefault(products => products.ProductId == id);
+            return View(thisProduct);
+        }
+
+        //Edit Product Post request
+        [HttpPost]
+        public IActionResult Edit(Product product)
+        {
+            db.Entry(product).State = EntityState.Modified;
             db.SaveChanges();
             return RedirectToAction("Index");
         }

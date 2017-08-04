@@ -4,3 +4,26 @@
     ViewData["Title"] = "Gummy Bear Kingdom";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+<h3>Add a new Product to our inventory.</h3>
+<hr />
+<br />
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(model => model.ProductName, "Name: ")
+    @Html.TextBoxFor(model => model.ProductName)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Price, "Price: ")
+    @Html.TextBoxFor(model => model.Price)
+    <br />
+    <br />
+    @Html.LabelFor(model => model.Origin, "Country of Origin: ")
+    @Html.TextBoxFor(model => model.Origin)
+    <br />
+    <br />
+    <input type="submit" value="Add Product" />
+}
+
+<p>@Html.ActionLink("Back to Admin", "Index")</p>
+<p>@Html.ActionLink("Back to Home", "Index", "Home")</p>
