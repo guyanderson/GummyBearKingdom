@@ -9,10 +9,9 @@
 <ul>
     @foreach (var listItem in Model)
     {
-
-    <li>
-        @Html.DisplayFor(modelItem => listItem.ProductName) | @Html.ActionLink("Edit", "Edit", new { id = listItem.ProductId })
-    </li>
+        <li>
+            @Html.DisplayFor(modelItem => listItem.ProductName) | @Html.ActionLink("Edit", "Edit", new { id = listItem.ProductId }) | | @Html.ActionLink("Delete", "Delete", new { id = listItem.ProductId })
+        </li>
     }
 </ul>
 <br />
