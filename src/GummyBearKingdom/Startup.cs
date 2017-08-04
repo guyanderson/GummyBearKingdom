@@ -17,7 +17,7 @@ namespace GummyBearKingdom
     public class Startup
     {
 
-        public IConfigurationRoot Configuration { get; set; }
+                public IConfigurationRoot Configuration { get; set; }
         public Startup(IHostingEnvironment env)
         {
             var builder = new ConfigurationBuilder()
@@ -37,6 +37,8 @@ namespace GummyBearKingdom
 
         public void Configure(IApplicationBuilder app)
         {
+            app.UseStaticFiles();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
