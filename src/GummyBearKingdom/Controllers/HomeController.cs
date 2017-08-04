@@ -14,5 +14,10 @@ namespace GummyBearKingdom.Controllers
         {
             return View();
         }
+
+        public IActionResult product()
+        {
+            return View();
+        }
     }
 }
