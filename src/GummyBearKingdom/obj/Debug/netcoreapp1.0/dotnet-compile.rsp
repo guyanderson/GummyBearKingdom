@@ -1,5 +1,5 @@
---temp-output:c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\
---out:c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\bin\Debug\netcoreapp1.0\GummyBearKingdom.dll
+--temp-output:C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\
+--out:C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\bin\Debug\netcoreapp1.0\GummyBearKingdom.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -195,16 +195,16 @@
 --reference:C:\Users\Guy\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Guy\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Guy\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
-c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs
-c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs
-c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\AdminController.cs
-c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\HomeController.cs
-c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\ProductController.cs
-c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804160716_Initial.cs
-c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804160716_Initial.Designer.cs
-c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804174925_PriceToDouble.cs
-c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804174925_PriceToDouble.Designer.cs
-c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\GummyBearKingdomContextModelSnapshot.cs
-c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\GummyBearKingdomContext.cs
-c:\users\guy\documents\visual studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Product.cs
+--resource:"C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\obj\Debug\netcoreapp1.0\GummyBearKingdomdotnet-compile.deps.json",GummyBearKingdom.deps.json
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Program.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Startup.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\AdminController.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\HomeController.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Controllers\ProductController.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804160716_Initial.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804160716_Initial.Designer.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804174925_PriceToDouble.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\20170804174925_PriceToDouble.Designer.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Migrations\GummyBearKingdomContextModelSnapshot.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\GummyBearKingdomContext.cs
+C:\Users\Guy\Documents\Visual Studio 2015\Projects\GummyBearKingdom\src\GummyBearKingdom\Models\Product.cs
